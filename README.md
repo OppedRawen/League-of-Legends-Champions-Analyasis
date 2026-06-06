@@ -4,9 +4,7 @@ By David Yu
 
 ## Introduction
 
-In League of Legends, players often judge the state of a game by looking at the kill score. If a team is down several kills by 15 minutes, it is easy to assume that the game is slipping away. However, kills are not the only way a team builds an advantage. A team can fall behind in fights while still farming well, catching waves, and staying close in resources through creep score, or CS.
-
-This project investigates whether a farming advantage can offset an early kill deficit in professional League of Legends. More specifically, I look at whether teams that are **down in kills but ahead in CS at 15 minutes** perform similarly to teams that are **up in kills but even or behind in CS**.
+As a player in League of Legends, a question that intrigues me is whether or not I can still come back from a game if I'm down in kill by just farming enough minions to get a gold advantage? For the followin, we will investigates whether a farming advantage can offset an early kill deficit in professional League of Legends(This is where we get our data from). More specifically, I look at whether teams that are **down in kills but ahead in CS at 15 minutes** perform similarly to teams that are **up in kills but even or behind in CS**.
 
 The dataset used in this project is the 2025 League of Legends esports match data from Oracle’s Elixir. Each row contains information about either a player or a team in a professional match. For this project, I focus mainly on the team-level rows, since my question is about whether a team’s overall farming advantage can compensate for its overall kill deficit.
 
@@ -286,9 +284,9 @@ This fairness analysis is important because my project is centered on a specific
 
 ## Conclusion
 
-This project started from a familiar League question: is the kill score really enough to tell who is winning?
+This project started from a question: can we offset Kill/Death difference in the early game(15 minutes) by farming enough CS?
 
-The analysis suggests that the answer is no. Teams that were down in kills but ahead in CS at 15 minutes won about **49.5%** of their games, while teams that were up in kills but even or behind in CS won about **50.9%** of their games. These win rates are nearly identical.
+The analysis suggests that the answer is Yes! Teams that were down in kills but ahead in CS at 15 minutes won about **49.5%** of their games, while teams that were up in kills but even or behind in CS won about **50.9%** of their games. These win rates are nearly identical.
 
 This does not mean that kills are unimportant. Teams that were ahead in both kills and CS had a very high win rate, while teams that were behind in both had a very low win rate. But the central comparison shows that farming can change how we interpret a kill deficit. A team that is down in kills but ahead in CS may still be in a very playable position.
 
