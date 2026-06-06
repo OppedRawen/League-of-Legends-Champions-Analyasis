@@ -143,12 +143,7 @@ The alternative hypothesis is significant
 
 Overall, the observed win rates suggest that CS advantage can meaningfully offset a kill deficit. This does not mean that farming always makes up for dying or losing fights. It means that, in professional games, a team that is behind in kills but ahead in CS can be in a much more playable position than the scoreboard alone suggests.
 
-<iframe
- src="assets/hypothesis_test.html"
- width="800"
- height="600"
- frameborder="0"
-></iframe>
+
 
 ## Framing a Prediction Problem
 
