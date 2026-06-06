@@ -21,7 +21,7 @@ The most relevant columns for this analysis are:
 | `side`         | Whether the team played on blue side or red side.                                          |
 | `league`       | The professional league the match came from.                                               |
 
-My central question is:
+My main question is:
 
 **Can a team’s CS advantage at 15 minutes meaningfully offset being behind in kills?**
 
@@ -222,14 +222,9 @@ The final model achieved an accuracy of:
 
 
 
-Even if the improvement is small, the final model is more thoughtful because it includes features that better reflect the actual game state at 15 minutes. In League, two teams with the same kill difference can be in very different positions depending on CS, gold, XP, and side.
+The final model only improved by a little because golddiffat15 accounts for the large majority of prediction, which is already included in the baseline model.
 
-<iframe
- src="assets/model_performance.html"
- width="800"
- height="600"
- frameborder="0"
-></iframe>
+<iframe src="assets/model_performance.html" width="800" height="600" frameborder="0" ></iframe>
 
 ## Fairness Analysis
 
